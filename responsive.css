@@ -1,5 +1,5 @@
 /* タブレット向けレイアウト　*/
-@media (max-width: 1000px) {
+@media (max-width: 1668px) {
   .logo {
     height: 45px;
     margin-top: 10px;
@@ -34,7 +34,7 @@
 }
 
 /* スマホ向けレイアウト */
-@media (max-width: 670px) {
+@media (max-width: 1242px) {
   .header-right {
     display: none;
   }
