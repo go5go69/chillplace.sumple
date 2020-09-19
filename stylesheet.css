@@ -1,0 +1,254 @@
+* {
+  box-sizing:border-box;
+}
+
+.Lclear {
+  clear: left;
+}
+
+.Rclear {
+  clear: right;
+}
+
+body {
+  font-family: "游ゴシック","游ゴシック体";
+  display: flex;
+  flex-flow: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,h2,p {
+  color: #404040;
+  font-weight: normal;
+}
+
+.container {
+  max-width: 1366px;
+  width: 100%;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.8);
+  position: fixed;
+  top: 0;
+  padding-right: 13px;
+}
+
+.logo {
+  height: 50px;
+  margin-top: 7.5px;
+}
+
+.logo-top {
+  float: left;
+}
+
+.menu-icon {
+  display: none;
+  float: right;
+  color: #404040;
+  font-size: 40px;
+  padding: 2.5px;
+}
+
+.header-right {
+  float: right;
+}
+
+.index-list {
+  padding: 2px 2px;
+  margin: 20px 5px 0px 5px;
+  display: inline-block;
+  color: #202020;
+}
+
+.index-list:hover {
+  border-bottom: 2px solid rgba(32,32,32,0.3);
+}
+
+.topimage {
+  padding: 120px 0px 100px 0px;
+  background-image: url(toppage.png);
+  background-size: cover;
+  margin: 56px 0px 80px 0px;
+}
+
+h1 {
+  font-size: 45px;
+  letter-spacing: 10px;
+  margin-left: 10%;
+}
+
+.topimage-txt p {
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+.download {
+  background-color: rgba(96,96,96,0.3);
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 15px;
+  margin-left: 10%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.wrapper {
+
+}
+
+.contents {
+  flex-direction: column;
+}
+
+.content {
+  height: auto;
+  margin-bottom: 5%;
+}
+
+/* .contentsのsize確認用
+.va {
+  background-color: red;
+}
+.wi {
+  background-color: green;
+}
+.co {
+  background-color: yellow;
+}
+.R {
+  background-color: orange;
+}
+.L {
+  background-color: orange;
+}
+*/
+
+.vacant {
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+}
+
+.wifi {
+  width: 40%;
+  float: right;
+  margin-right: 10%;
+}
+
+.covid {
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+}
+
+.R {
+  width: 50%;
+  display: inline-block;
+}
+
+.L {
+  float: right;
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+
+.content-txt h2 {
+  font-size: 50px;
+  padding: 0 5%;
+}
+
+.content-txt p {
+  font-size: 18px;
+  padding: 0 5%;
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+  background-color: #455765;
+  margin-top: auto;
+  margin-bottom: 0;
+  bottom: 0;
+}
+
+footer a {
+  font-size: 30px;
+  color: #fff;
+  opacity: 0.8;
+  margin: 10px 10px 0px 10px;
+  display: inline-block;
+}
+
+.ig {
+  margin-left: 50px;
+}
+
+.footer-left p {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 12px;
+  margin: -5px 0px 0px 50px;
+}
+
+.qr-wrapper {
+  flex: 1;
+  margin: 165px 0 100px 0;
+  text-align: center;
+}
+
+.download-left {
+  width: 30%;
+  margin: 0 60px 0 20px;
+  display: inline-block;
+}
+
+.download-left p {
+  font-size: 20px;
+}
+
+.download-left h2 {
+  font-size: 20px;
+}
+
+.download-left span {
+  font-size: 25px;
+}
+
+.download-right {
+  width: 30%;
+  margin: 0 20px 0 60px;
+  display: inline-block;
+}
+
+.download-right p {
+  font-size: 20px;
+}
+
+.download-right h2 {
+  font-size: 20px;
+}
+
+.download-right span {
+  font-size: 25px;
+}
+
+.android {
+  width: 100%;
+  border: 1px solid #404040;
+}
+
+.iphone {
+  width: 100%;
+  border: 1px solid #404040;
+}
